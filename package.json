@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "cross-env NODE_ENV=development PORT=3000 node index.tsx",
     "build": "next build",
     "start": "node index.tsx",
     "lint": "next lint"
