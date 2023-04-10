@@ -1,7 +1,6 @@
 import classes from "./TopContent.module.css"
 import Link from 'next/link';
 import { CgArrowRightO } from "react-icons/cg"
-import FadeIn from 'react-fade-in';
 import Fade from 'react-reveal/Fade';
 
 const TopContent = () => {

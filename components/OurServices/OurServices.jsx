@@ -1,9 +1,9 @@
 // import { serviceTabs } from '../../utils/helpers';
+// import { motion, AnimatePresence } from "framer-motion";
 import { services } from '../../utils/helpers';
 import Image from 'next/image';
 import classes from "./OurServices.module.css"
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
 import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
 

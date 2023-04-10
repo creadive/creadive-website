@@ -7,7 +7,6 @@ import OurServices from '../OurServices/OurServices';
 
 import classes from "./Main.module.css";
 import Image from "next/image";
-import FadeIn from 'react-fade-in';
 import Slide from 'react-reveal/Slide';
 import Fade from 'react-reveal/Fade';
 

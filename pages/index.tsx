@@ -40,9 +40,9 @@ export default function Home() {
         ></link>
       </Head>
       <Layout>
-        {/* {isLoading ? <Loading /> : <Main />} */}
         <Fade>
-          <Main />
+          {isLoading ? <Loading /> : <Main />}
+          {/* <Main /> */}
         </Fade>
       </Layout>
       <Footer />
