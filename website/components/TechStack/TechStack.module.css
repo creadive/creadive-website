@@ -1,0 +1,112 @@
+.techStack_wrapper {
+    background: #00072c;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 60px 0;
+    /* , url('../../public/techstack.webp') */
+}
+
+.techStack_container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.techStack_wrapper h2 {
+    font-size: 50px;
+    line-height: 61px;
+    letter-spacing: normal;
+    color: #fff;
+    font-weight: 100;
+    margin-bottom: 1em;
+    font-family: var(--fontKanit);
+}
+
+.techStack_wrapper p {
+    font-size: 17px;
+    line-height: 28px;
+    color: #fff;
+    font-weight: 200;
+    font-family: var(--fontKanit);
+}
+
+.techStack_inner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.techStack_inner p {
+    width: 45%;
+    line-height: 25px;
+    letter-spacing: .6px;
+}
+
+.techStack_inner>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    width: 45%;
+    gap: 20px;
+}
+
+.techStack_inner img {
+    transition: .2s ease-in-out all;
+    -webkit-transition: .2s ease-in-out all;
+    -moz-transition: .2s ease-in-out all;
+    -ms-transition: .2s ease-in-out all;
+    -o-transition: .2s ease-in-out all;
+    cursor: pointer;
+    filter: contrast(1);
+    -webkit-filter: contrast(1);
+    /* padding: 8px; */
+}
+
+.techStack_inner img:hover {
+    scale: 1.2;
+    margin-top: -10px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    transition: .2s ease-in-out all;
+    -webkit-transition: .2s ease-in-out all;
+    -moz-transition: .2s ease-in-out all;
+    -ms-transition: .2s ease-in-out all;
+    -o-transition: .2s ease-in-out all;
+}
+
+@media screen and (max-width: 650px) {
+
+    /* TECH STACK SECTION */
+
+    .techStack_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .techStack_inner {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .techStack_inner p,
+    .techStack_inner>div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .techStack_inner>div {
+        margin-bottom: 2em;
+        justify-content: center;
+    }
+
+    /* CONTACT SECTION */
+
+
+}

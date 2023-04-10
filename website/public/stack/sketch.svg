@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="61px" height="58px" viewBox="0 0 61 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>96F1C049-0B7E-4F7E-92B3-C5DABA028A66</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing" transform="translate(-1198.000000, -4453.000000)" fill-rule="nonzero">
+            <g id="sketch" transform="translate(1198.000000, 4453.000000)">
+                <polygon id="Path" fill="#FFD54F" points="11.4375 21.1166745 11.4375 3.64562554 30.5 0 49.5625 3.64562554 49.5625 21.1166745"></polygon>
+                <polygon id="Path" fill="#FFECB3" points="11.4375 21.1166745 30.5 0 49.5625 21.1166745"></polygon>
+                <polygon id="Path" fill="#FFA000" points="0 21.1166745 30.5 58 61 21.1166745"></polygon>
+                <polygon id="Path" fill="#FFCA28" points="11.4375 21.1166745 30.5 58 49.5625 21.1166745"></polygon>
+                <g id="Group" transform="translate(0.000000, 3.645626)" fill="#FFC107">
+                    <polygon id="Path" points="0 17.4710489 11.4375 0 11.4375 17.4710489"></polygon>
+                    <polygon id="Path" points="49.5625 0 49.5625 17.4710489 61 17.4710489"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

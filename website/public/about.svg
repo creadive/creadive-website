@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="29px" viewBox="0 0 29 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>info-button 2</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="info-button-2" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="info-button">
+                <path d="M14.5,29 C6.525,29 0,22.475 0,14.5 C0,6.525 6.525,0 14.5,0 C22.475,0 29,6.525 29,14.5 C29,22.475 22.475,29 14.5,29 Z M14.5,2.9 C8.12,2.9 2.9,8.12 2.9,14.5 C2.9,20.88 8.12,26.1 14.5,26.1 C20.88,26.1 26.1,20.88 26.1,14.5 C26.1,8.12 20.88,2.9 14.5,2.9 Z" id="Shape"></path>
+                <path d="M14.5,21.75 C13.63,21.75 13.05,21.17 13.05,20.3 L13.05,13.05 C13.05,12.18 13.63,11.6 14.5,11.6 C15.37,11.6 15.95,12.18 15.95,13.05 L15.95,20.3 C15.95,21.17 15.37,21.75 14.5,21.75 Z" id="Path"></path>
+                <circle id="Oval" cx="14.5" cy="8.7" r="1.45"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
