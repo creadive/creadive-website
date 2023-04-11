@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Creadive.az 🚀</title>
+        <title>Creadive Agency</title>
         <meta name="description" content="Grow on digital ocean with us!" />
         <link rel="icon" href="/favicon.png" />
         <link
