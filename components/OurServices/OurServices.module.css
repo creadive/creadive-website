@@ -51,7 +51,7 @@
     font-family: var(--fontKanit);
     text-align: center;
     width: 80%;
-
+    font-size: 20px;
 }
 
 .ourServices_inner {
@@ -61,17 +61,33 @@
 }
 
 @media screen and (max-width: 600px) {
+
+    .ourServices_inner {
+        font-size: 50px;
+        margin-bottom: 2em;
+        letter-spacing: 2.5px;
+        font-family: var(--fontKanit);
+        font-weight: 200;
+        line-height: 50px;
+        text-align: center;
+    }
+
     .services_parent {
         flex-direction: column;
+        margin-bottom: 0;
     }
 
     .services_parent li {
         width: 100%;
-        margin-bottom: 3em;
+    }
+
+    .services_parent li:not(:last-child) {
+        margin-bottom: 2em;
     }
 
     .service_heading {
         flex-direction: column;
+        margin-bottom: 8px;
     }
 
     .service_heading>div {

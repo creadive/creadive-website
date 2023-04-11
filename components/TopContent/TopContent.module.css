@@ -57,7 +57,7 @@
     -o-transition: .3s ease all;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     font-family: var(--fontKanit);
     transition: .3s ease all;
     align-items: center;
@@ -95,6 +95,10 @@
     -moz-transform: translateX(6px);
     -ms-transform: translateX(6px);
     -o-transform: translateX(6px);
+}
+
+.top_wrapper a span:first-child {
+    margin-right: 5px;
 }
 
 #rightArrow {
@@ -139,8 +143,18 @@
         margin: 2em auto;
         width: 80%;
     }
+}
 
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+    .top_wrapper a {
+        margin: 2em auto;
+        width: 90%;
+        padding: 15px 0;
+    }
+}
 
-
-
+@media screen and (min-width: 600px) and (max-width: 990px) {
+    .top_wrapper {
+        max-width: 75%;
+    }
 }

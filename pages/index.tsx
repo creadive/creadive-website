@@ -13,7 +13,7 @@ export default function Home() {
 
   setTimeout(() => {
     setIsLoading(false);
-  }, 3500);
+  }, 2800);
 
   return (
     <div>

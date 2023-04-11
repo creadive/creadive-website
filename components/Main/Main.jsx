@@ -16,15 +16,15 @@ const Main = () => {
       <div className={classes.main}>
         <Header />
         <TopContent />
-        <Slide right style={{ width: "20%" }}>
-          <Image
-            src="/top-illustration.svg"
-            width="600"
-            height="450"
-            alt="Innovation"
-            id={classes.top_img}
-          />
-        </Slide>
+        {/* <Slide right style={{ width: "20%" }}> */}
+        <Image
+          src="/top-illustration.svg"
+          width="600"
+          height="450"
+          alt="Innovation"
+          id={classes.top_img}
+        />
+        {/* </Slide> */}
       </div>
       <Slider />
       <OurServices />

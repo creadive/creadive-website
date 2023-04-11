@@ -42,6 +42,7 @@ const CarouselContainer = styled.div`
   @media screen and (max-width: 600px) {
     #carousel_new_container .swipeContainer {
       width: 100% !important;
+      height: 50% !important;
     }
 
     #carousel_new_container .swipeContainer .itemContainer {
@@ -49,11 +50,9 @@ const CarouselContainer = styled.div`
     };
 
     #carousel_new_container .verticalContainer {
-      height: 65% !important;
+      height: 75% !important;
     };
   }
-  
-
 `;
 
 const Slider = () => {

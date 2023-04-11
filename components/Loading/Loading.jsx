@@ -8,8 +8,8 @@ export const Loading = () => {
             <div className={classes.dot}></div>
             <div className={classes.dot}></div>
             <div className={classes.dot}></div> */}
-            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-            <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_Q7WY7CfUco.json" background="transparent" speed="1.2" style={{ width: "300px", height: "300px" }} loop autoplay></lottie-player>
+            <script async src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_Q7WY7CfUco.json" background="transparent" speed="1.5" style={{ width: "300px", height: "300px" }} autoplay></lottie-player>
         </div>
     );
 };

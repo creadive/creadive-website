@@ -10,6 +10,11 @@
     justify-content: space-around;
 }
 
+#top_img {
+    width: 32%;
+    height: 100%;
+}
+
 
 
 @media screen and (max-width: 600px) {
@@ -22,5 +27,15 @@
 
     #top_img {
         display: none;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 990px) {
+    #top_img {
+        display: none;
+    }
+
+    .main {
+        height: 100%;
     }
 }

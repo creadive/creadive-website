@@ -16,7 +16,7 @@ const Contact = () => {
                     <div className={classes.contact_means}>
                         <div>
                             <HiOutlineMail />
-                            <a target="_blank" rel="noopener noreferrer" href="mailto:creadive.az@gmail.com">info@creadive.az</a>
+                            <a target="_blank" rel="noopener noreferrer" href="mailto:creadive.az@gmail.com">creadive.az@gmail.com</a>
                         </div>
                         <div>
                             <HiOutlinePhone />
