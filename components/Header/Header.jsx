@@ -15,17 +15,20 @@ const Header = () => {
                         {/* image must be customized */}
                         <Link href="/" alt="Home">
                             <Image id={classes.header_logo} src="/header_logo.svg" width="40" height="40" alt="Creadive Logo" />
-                            <span className={classes.linkName}>Creadive</span>
+                            <span className={classes.linkName}>Homepage</span>
                         </Link>
                         {navLinks.map((link, index) => {
                             return (
-                                <Link key={index} href={link.path}>
-                                    <li>
-                                        <Image src={link.imgUrl} alt={link.name}
-                                            width="25" height="25" />
-                                    </li>
-                                    <span className={classes.linkName}>{link.name}</span>
-                                </Link>
+                                <li key={index}>
+                                    <Link href={link.path}>
+                                        <Image
+                                            src={link.imgUrl}
+                                            alt={link.name}
+                                            width="25" height="25"
+                                        />
+                                        <span className={classes.linkName}>{link.name}</span>
+                                    </Link>
+                                </li>
                             );
                         })}
                     </ul>
