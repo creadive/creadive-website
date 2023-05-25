@@ -58,15 +58,7 @@
     width: 70px;
     margin-left: 10px;
     opacity: 0;
-    transition: .4s ease all;
-    -webkit-transition: .4s ease all;
-    -moz-transition: .4s ease all;
-    -ms-transition: .4s ease all;
-    -o-transition: .4s ease all;
-}
-
-.header a:hover .linkName {
-    opacity: 1;
+    display: none;
     transition: .4s ease all;
     -webkit-transition: .4s ease all;
     -moz-transition: .4s ease all;
@@ -114,5 +106,17 @@
     .header a:not(:last-child) {
         margin-bottom: 0;
         margin-right: 10px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .header a:hover .linkName {
+        display: block;
+        opacity: 1;
+        transition: .4s ease all;
+        -webkit-transition: .4s ease all;
+        -moz-transition: .4s ease all;
+        -ms-transition: .4s ease all;
+        -o-transition: .4s ease all;
     }
 }
