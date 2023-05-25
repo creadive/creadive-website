@@ -3,6 +3,9 @@ import Image from 'next/image';
 // import FadeIn from 'react-fade-in';
 import Bounce from "react-reveal/Bounce"
 import Fade from 'react-reveal/Fade';
+import { techImages } from '../../utils/helpers';
+
+
 
 const TechStack = () => {
     return (
@@ -19,18 +22,12 @@ const TechStack = () => {
                     </Fade>
                     <Bounce right cascade>
                         <div>
-                            <Image alt="HTML5" src="/stack/html.svg" width="60" height="60" />
-                            <Image alt="CSS3" src="/stack/css.svg" width="60" height="60" />
-                            <Image alt="JavaScript" src="/stack/javascript.svg" width="60" height="60" />
-                            <Image alt="React" src="/stack/react.svg" width="60" height="60" />
-                            <Image alt="Typescript" src="/stack/typescript.svg" width="60" height="60" />
-                            <Image alt="Next.js" src="/stack/nextjs.svg" width="60" height="60" />
-                            <Image alt="Figma" src="/stack/figma.svg" width="60" height="60" />
-                            <Image alt="Photoshop" src="/stack/photoshop.svg" width="60" height="60" />
-                            <Image alt="Bootstrap" src="/stack/bootstrap.svg" width="60" height="60" />
-                            <Image alt="jQuery" src="/stack/jquery.svg" width="60" height="60" />
-                            <Image alt="NodeJS" src="/stack/nodejs.svg" width="60" height="60" />
-                            <Image alt="Sketch" src="/stack/sketch.svg" width="60" height="60" />
+                            {
+                                techImages.map(img => (
+                                    <Image key={img.id} alt={img.alt} src={img.src} width="60" height="60" />
+                                ))
+                            }
+
                         </div>
                     </Bounce>
                 </div>
