@@ -47,3 +47,5 @@ export const services = [
 //     { iconUrl: "/design.svg", label: "App & Product Design", description: "We create stunning and user-friendly app/product designs. Our human-centered approach meets business goals and user needs." },
 //     { iconUrl: "/seo.svg", label: "SEO", description: "We optimize your website content and keywords to increase traffic and generate leads, driving more organic traffic and conversions." },
 // ];
+
+// cross-env NODE_ENV=development PORT=3000 node index.tsx

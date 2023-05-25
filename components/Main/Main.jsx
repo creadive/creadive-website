@@ -23,6 +23,7 @@ const Main = () => {
           height="450"
           alt="Innovation"
           id={classes.top_img}
+          priority
         />
         {/* </Slide> */}
       </div>
