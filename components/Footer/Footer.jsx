@@ -27,7 +27,7 @@ const Footer = () => {
                 <div id={classes.copyrights}>
                     Copyrights {currentYear} &copy; All Rights Reserved
                 </div>
-                <span style={{ fontSize: "13px" }}>(Alpha Version)</span>
+                <span style={{ fontSize: "13px" }}>(Alpha version)</span>
                 {/* <div id={classes.createdBy}>created by
                     <a rel="noreferrer" target="_blank" href="https://nihadabbasov.vercel.app">
                         <span> Nihad Abbasov</span>
