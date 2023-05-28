@@ -27,13 +27,14 @@ const Footer = () => {
                 <div id={classes.copyrights}>
                     Copyrights {currentYear} &copy; All Rights Reserved
                 </div>
-                <div id={classes.createdBy}>created by
+                <span style={{ fontSize: "13px" }}>(Alpha Version)</span>
+                {/* <div id={classes.createdBy}>created by
                     <a rel="noreferrer" target="_blank" href="https://nihadabbasov.vercel.app">
                         <span> Nihad Abbasov</span>
                         <div id={classes.founder}>
                             <Image src='/founder.png' alt="Nihad Abbasov" width="270" height="154" />
                         </div>
-                    </a></div>
+                    </a></div> */}
             </div>
         </footer>
     )
