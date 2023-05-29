@@ -21,6 +21,7 @@ export default function Document() {
                 // as="style"
                 // crossOrigin="anonymous"
                 ></link>
+                <link rel="icon" href="/favicon.png" />
             </Head>
             <body>
                 <Main />

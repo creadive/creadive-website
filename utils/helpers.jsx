@@ -1,7 +1,7 @@
 export const navLinks = [
     {
         name: "Projects",
-        path: "/",
+        path: "/projects",
         imgUrl: "/projects.svg"
     },
     {

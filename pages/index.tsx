@@ -20,7 +20,6 @@ export default function Home() {
       <Head>
         <title>Creadive Agency</title>
         <meta name="description" content="Grow on digital ocean with us!" />
-        <link rel="icon" href="/favicon.png" />
       </Head>
       <Layout>
         <Fade>

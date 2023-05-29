@@ -13,7 +13,11 @@ const projects = () => {
       <section id={classes.projects}>
         <Fade bottom big>
           <div className={classes.project_wrapper}>
-            <a href="">
+            <a
+              href="https://prndmarketing.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <Image
                 alt="name"
                 width="600"
@@ -25,7 +29,11 @@ const projects = () => {
           </div>
 
           <div className={classes.project_wrapper}>
-            <a href="">
+            <a
+              href="https://rampaffiliates.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <Image
                 alt="name"
                 width="600"
@@ -36,7 +44,7 @@ const projects = () => {
             </a>
           </div>
           <div className={classes.project_wrapper}>
-            <a href="">
+            <a href="" target="_blank" rel="noreferrer">
               <Image
                 alt="name"
                 width="600"
@@ -47,7 +55,7 @@ const projects = () => {
             </a>
           </div>
           <div className={classes.project_wrapper}>
-            <a href="">
+            <a href="" target="_blank" rel="noreferrer">
               <Image
                 alt="name"
                 width="600"
@@ -58,7 +66,7 @@ const projects = () => {
             </a>
           </div>
           <div className={classes.project_wrapper}>
-            <a href="">
+            <a href="" target="_blank" rel="noreferrer">
               <Image
                 alt="name"
                 width="600"
@@ -69,7 +77,7 @@ const projects = () => {
             </a>
           </div>
           <div className={classes.project_wrapper}>
-            <a href="">
+            <a href="" target="_blank" rel="noreferrer">
               <Image
                 alt="name"
                 width="600"

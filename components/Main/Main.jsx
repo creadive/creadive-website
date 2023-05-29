@@ -9,6 +9,7 @@ import classes from "./Main.module.css";
 import Image from "next/image";
 import Slide from 'react-reveal/Slide';
 import Fade from 'react-reveal/Fade';
+import SnapSlider from '../Slider/SnapSlider';
 
 const Main = () => {
   return (
@@ -28,6 +29,7 @@ const Main = () => {
         {/* </Slide> */}
       </div>
       <Slider />
+      {/* <SnapSlider /> */}
       <OurServices />
       <TechStack />
       <Contact />

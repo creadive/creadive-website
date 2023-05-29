@@ -9,7 +9,7 @@ const TopContent = () => {
             <div className={classes.top_wrapper}>
                 {/* <Fade top> */}
 
-                <h1>Designing Digital Dreams with Creadive</h1>
+                <h1>Designing Digital Dreams with Creadive Agency</h1>
                 {/* </Fade> */}
                 {/* <h2>Dream It, We'll Build It!</h2> */}
                 {/* <p> */}
