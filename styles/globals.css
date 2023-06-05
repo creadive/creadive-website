@@ -119,3 +119,15 @@ li {
         border: 1px solid rgba(0, 0, 0, 0.3);
     }
 }
+
+@media screen and (max-width: 450px) {
+    .carousel__cell {
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .carousel__cell {
+        left: -13px;
+    }
+}
