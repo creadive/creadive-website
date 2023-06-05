@@ -85,7 +85,7 @@
 
     .services_parent li {
         width: 100%;
-        text-align: center;
+
     }
 
     .services_parent li:not(:last-child) {
@@ -103,5 +103,6 @@
 
     .services_parent p {
         width: 100%;
+        text-align: center;
     }
 }
