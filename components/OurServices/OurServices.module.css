@@ -1,6 +1,6 @@
 #our_services {
     margin: 0 auto;
-    background-color: #fff;
+    background-color: #f4f4f4;
     color: #000;
 }
 
@@ -64,13 +64,19 @@
 
     .ourServices_inner {
         font-size: 50px;
-        margin-bottom: 2em;
+        padding-bottom: 2em;
         letter-spacing: 2.5px;
         font-family: var(--fontKanit);
         font-weight: 200;
         line-height: 50px;
         text-align: center;
     }
+
+    #our_services {
+        background-color: #f4f4f4;
+    }
+
+
 
     .services_parent {
         flex-direction: column;

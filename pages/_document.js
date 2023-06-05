@@ -22,6 +22,7 @@ export default function Document() {
                 // crossOrigin="anonymous"
                 ></link>
                 <link rel="icon" href="/favicon.png" />
+                <script async src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
             </Head>
             <body>
                 <Main />
