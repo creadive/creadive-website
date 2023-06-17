@@ -50,7 +50,7 @@
     /* justify-content: space-around; */
     flex-wrap: wrap;
     width: 45%;
-    gap: 25px;
+    gap: 45px;
 }
 
 .techStack_inner img {
