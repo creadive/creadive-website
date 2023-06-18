@@ -13,11 +13,17 @@ const TopContent = () => {
                     We are excited to share our passion for digital design and development, social media marketing, logo design, UX/UI design, app development and e-commerce solutions with you and help you achieve your unique digital vision.
                 </p>
 
-                <Link href="/projects">
+                {/* <Link href="/projects">
                     <span>
                         Check Our Projects
                     </span>
                     <span id={classes.rightArrow}>&#8594;</span>
+                </Link> */}
+                <Link href="/projects" className={classes.learn_more}>
+                    <span className={classes.circle} aria-hidden="true">
+                        <span className={`${classes.icon} ${classes.arrow}`}></span>
+                    </span>
+                    <span className={classes.button_text}>Check Our Projects</span>
                 </Link>
             </div>
             <div id={classes.scrollDown_animationWrapper}>

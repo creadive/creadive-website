@@ -2,7 +2,7 @@
     color: #fff;
     display: flex;
     align-items: center;
-    background-image: linear-gradient(#005d6469, #002efa93), url("../../public/digital.png");
+    background-image: linear-gradient(to bottom, #1a1b3c75, #0518c368), url("../../public/digital.png");
     /* height: 82vh; */
     height: 100vh;
     /* background-size: cover; */
