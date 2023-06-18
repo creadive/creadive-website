@@ -15,7 +15,7 @@ const Main = () => {
         <Header />
         <TopContent />
         <Image
-          src="/top-illustration.svg"
+          src="/file1.svg"
           width="600"
           height="450"
           alt="Innovation"
