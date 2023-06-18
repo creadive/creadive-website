@@ -1,57 +1,20 @@
+import Link from "next/link"
 import classes from "./SocialMediaIcons.module.css"
-import { BsFacebook } from "react-icons/bs"
-import { FaInstagram } from "react-icons/fa"
-import { AiOutlineLinkedin } from "react-icons/ai"
-import { BsTelegram } from "react-icons/bs"
-
+import { socialIcons } from '../../utils/helpers';
+import Image from "next/image";
 
 const SocialMediaIcons = () => {
     return (
-        <div className={classes.wrapper}>
-            <div className={classes.button}>
-                <div className={classes.icon}>
-                    <BsFacebook width="60" height="60" />
-                </div>
-                <span>Facebook</span>
-            </div>
-            <div className={classes.button}>
-                <div className={classes.icon}>
-                    <AiOutlineLinkedin />
-                </div>
-                <span>LinkedIn</span>
-            </div>
-            {/* <div className={classes.button}>
-                <div className={classes.icon}>
-                    <i className={classes.twitter}></i>
-                </div>
-                <span>Twitter</span>
-            </div > */}
-            <div className={classes.button}>
-                <div className={classes.icon}>
-                    <FaInstagram />
-                </div>
-                <span>Instagram</span>
-            </div >
-            <div className={classes.button}>
-                <div className={classes.icon}>
-                    <i className={classes.github}></i>
-                </div>
-                <span>Github</span>
-            </div >
-            <div className={classes.button}>
-                <div className={classes.icon}>
-                    <i className={classes.youtube}></i>
-                </div>
-                <span>YouTube</span>
-            </div >
-            <div className={classes.button}>
-                <div className={classes.icon}>
-                    <BsTelegram />
-                </div>
-                <span>Telegram</span>
-            </div >
-
-        </div >
+        <div className={classes.card}>
+            <span>Follow us!</span>
+            {
+                socialIcons.map(soc => (
+                    <Link key={soc.id} href={soc.href} className={classes.social_link}>
+                        <Image width="50" height="50" alt={soc.alt} src={soc.src} />
+                    </Link>
+                ))
+            }
+        </div>
     )
 }
 

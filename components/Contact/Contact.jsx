@@ -1,8 +1,7 @@
 import classes from "./Contact.module.css"
 import { HiOutlineMail } from "react-icons/hi"
 import { HiOutlinePhone } from 'react-icons/hi';
-import { TbBrandTelegram } from "react-icons/tb"
-import { TbBrandLinkedin } from "react-icons/tb"
+
 import SocialMediaIcons from '../SocialMediaIcons/SocialMediaIcons';
 import Zoom from "react-reveal/Zoom"
 
@@ -22,17 +21,9 @@ const Contact = () => {
                             <HiOutlinePhone />
                             (+994) 10 531 99 87
                         </div>
-                        {/* <div>
-                        <TbBrandTelegram />
-                        <a target="_blank" rel="noopener noreferrer" href="https://t.me/creadive_az">creadive</a>
-                    </div>
-                    <div>
-                        <TbBrandLinkedin />
-                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/creadive-az">creadive</a>
-                    </div> */}
                     </div>
                 </Zoom>
-                {/* <SocialMediaIcons />ww */}
+                <SocialMediaIcons />
             </div>
 
         </div>

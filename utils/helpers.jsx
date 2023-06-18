@@ -40,7 +40,7 @@ export const services = [
         name: "SEO",
         description: "We optimize your website content and keywords to increase traffic and generate leads, driving more organic traffic and conversions."
     },
-]
+];
 
 export const techImages = [
     {
@@ -104,6 +104,13 @@ export const techImages = [
         alt: "Sketch",
     },
 
+];
+
+export const socialIcons = [
+    { id: 1, href: "https://www.facebook.com/creadive.az", alt: "Facebook", src: "fb.svg" },
+    { id: 2, href: "https://www.instagram.com/creadive.az", alt: "Instagram", src: "ig.svg" },
+    { id: 3, href: "https://www.linkedin.com/company/creadive-az", alt: "Linkedin", src: "in.svg" },
+    { id: 4, href: "https://t.me/creadive_az", alt: "Telegram", src: "tg.svg" }
 ]
 
 // export const serviceTabs = [
