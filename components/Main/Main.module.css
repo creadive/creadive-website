@@ -2,6 +2,9 @@
     color: #fff;
     display: flex;
     align-items: center;
+    /* fallback bg*/
+    background: linear-gradient(to bottom, #1a1b3c75, #0518c368);
+    /* main bg */
     background-image: linear-gradient(to bottom, #1a1b3c75, #0518c368), url("../../public/digital.png");
     /* height: 82vh; */
     height: 100vh;
