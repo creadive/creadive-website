@@ -3,11 +3,11 @@ import TopContent from "../TopContent/TopContent";
 import TechStack from '../TechStack/TechStack';
 import Contact from '../Contact/Contact';
 import OurServices from '../OurServices/OurServices';
+import SocialMediaIcons from '../SocialMediaIcons/SocialMediaIcons';
+import Projects from '../Slider/Projects';
 
 import classes from "./Main.module.css";
 import Image from "next/image";
-import Projects from '../Slider/Projects';
-import SocialMediaIcons from '../SocialMediaIcons/SocialMediaIcons';
 
 
 const Main = () => {
