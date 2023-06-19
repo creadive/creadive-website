@@ -2,7 +2,7 @@ import classes from "./Contact.module.css"
 import { HiOutlineMail } from "react-icons/hi"
 import { HiOutlinePhone } from 'react-icons/hi';
 
-import SocialMediaIcons from '../SocialMediaIcons/SocialMediaIcons';
+
 import Zoom from "react-reveal/Zoom"
 
 const Contact = () => {
@@ -23,7 +23,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </Zoom>
-                <SocialMediaIcons />
+
             </div>
 
         </div>

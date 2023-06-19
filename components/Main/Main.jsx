@@ -7,10 +7,13 @@ import OurServices from '../OurServices/OurServices';
 import classes from "./Main.module.css";
 import Image from "next/image";
 import Projects from '../Slider/Projects';
+import SocialMediaIcons from '../SocialMediaIcons/SocialMediaIcons';
+
 
 const Main = () => {
   return (
     <>
+      <SocialMediaIcons />
       <div className={classes.main}>
         <Header />
         <TopContent />
