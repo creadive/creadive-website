@@ -3,9 +3,9 @@
     display: flex;
     align-items: center;
     /* fallback bg*/
-    background: linear-gradient(to bottom, #1a1b3c75, #0518c368);
+    /* background-image: linear-gradient(to bottom, #1a1b3c, #0518c3); */
     /* main bg */
-    background-image: linear-gradient(to bottom, #1a1b3c75, #0518c368), url("../../public/digital.png");
+    background-image: linear-gradient(to right, #1a1b3c, #0518c3), url("../../public/digital.png");
     /* height: 82vh; */
     height: 100vh;
     /* background-size: cover; */
