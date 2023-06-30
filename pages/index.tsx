@@ -9,11 +9,11 @@ import Link from "next/link";
 import Fade from "react-reveal/Fade";
 
 export default function Home() {
-  const [isLoading, setIsLoading] = useState(true);
+  // const [isLoading, setIsLoading] = useState(true);
 
-  setTimeout(() => {
-    setIsLoading(false);
-  }, 2200);
+  // setTimeout(() => {
+  //   setIsLoading(false);
+  // }, 2200);
 
   return (
     <div>
@@ -22,10 +22,8 @@ export default function Home() {
         <meta name="description" content="Grow on digital ocean with us!" />
       </Head>
       <Layout>
-        <Fade>
-          {isLoading ? <Loading /> : <Main />}
-          {/* <Main /> */}
-        </Fade>
+        {/* {isLoading ? <Loading /> : <Main />} */}
+        <Main />
       </Layout>
       <Footer />
     </div>
